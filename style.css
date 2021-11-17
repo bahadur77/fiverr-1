@@ -1,0 +1,310 @@
+body{
+ font-family: 'Roboto', sans-serif;
+}
+p{
+    margin: 0;
+}
+h1, h2, h3, h4, h5{
+    margin: 0;
+}
+.clear{
+    clear: both;
+
+}
+.main-land{
+ width: 100%;
+}
+.container{
+ width: 100%;
+}
+.logo-area{
+ width: 80%;
+ margin: 0 auto;
+ background-color: #fff;
+}
+.logo-area a img{
+ max-width: 140px;
+}
+.banner{
+ background-image: url(image/Homepage.jpg),linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+ background-repeat: no-repeat;
+ background-size: cover;
+height: 650px;
+ clear: both;
+
+ 
+}
+.rtbc{
+    color: #151B54;
+}
+.banner-container{
+    padding: 85px 30px;
+}
+.banner-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner-left{
+    width: 40%;
+}
+.banner-right{
+    width: 60%;
+}
+
+.banner-form{
+    width: 100%;
+}
+.banner-form-container{
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgba(211, 147, 147, 0.034);
+    padding: 30px;
+    border-radius: 15px;
+}
+.form-title{
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.form-title h1{
+    font-size: 20px;
+    color: #151B54;
+}
+.top-filed{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+.f-name{
+    width: 48%;
+}
+.l-name{
+    width: 48%;
+}
+.input-filed{
+    width: 90%;
+    padding: 7px;
+    border-radius: 50px;
+    border: 1px solid #151B54;
+}
+.fild{
+    width: 100%;
+    padding: 8px;
+}
+.form-cont{
+    width: 100%;
+    
+}
+.input-filed-d{
+    width: 95%;
+    padding: 7px;
+    border-radius: 50px;
+    border: 1px solid #151B54;
+}
+
+.filed-btn{
+    width: 100%;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: #8fc13e;
+    border: none;
+    color: #fff;
+}
+
+.banner-top-title h2{
+ font-size: 35px;
+ margin: 0;
+ color: #151B54;
+}
+.banner-logo-text h1{
+ font-size: 50px;
+ margin: 0;
+}
+
+.content-text{
+    line-height: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.land-footer{
+    width: 100%;
+    clear: both;
+    margin-top: 5px;
+
+}
+.land-footer-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.land-footer-left{
+    width: 40%;
+}
+.land-left-container{
+    padding-right: 10px;
+}
+
+.land-left-top{
+    width: 100%;
+    padding: 0 5px;
+    clip-path: polygon(0 0, 91% 0, 100% 100%, 0% 100%);
+    background-color: #8fc13e;
+}
+.left-top-cont{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+.land-footer-right{
+    width: 60%;
+}
+.land-right-container{
+    padding-top: 10px;
+}
+.land-right-clip-f{
+    background-color: #8fc13e;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 10% 100%);
+}
+.land-right-clip-f-cont{
+    padding-left: 30px;
+}
+.land-right-clip-s{
+    width: 100%;
+    background-color: #151B54;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 10% 100%);
+}
+.land-right-clip-s-container{
+    width: 76%;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #fff;
+}
+.left-mail{
+    width: 100%;
+    padding: 10px 30px;
+}
+.mail{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #8fc13e;
+    border-radius: 50%;
+}
+.mail-icon{
+    font-size: 15px;
+    padding: 7px;
+    color: #8fc13e;
+}
+.land-right-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-num{
+    padding-right: 10px;
+}
+.right-num span{
+    display: block;
+    padding: 5px 0;
+}
+.right-icons{
+    font-size: 50px;
+    color:#8fc13e;
+}
+
+@media only screen and (max-width: 375px) {
+    .banner-logo-text h1{
+        font-size: 40px;
+    }
+    .banner-top-title h2{
+        font-size: 27px;
+    }
+    .logo-area a img{
+        max-width: 100px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .banner{
+        background-position:center;
+        height: auto;
+    }
+    .banner-container{
+        padding: 40px 20px;
+    }
+    .banner-left{
+        width: 100%;
+    }
+    .banner-right{
+        width: 100%;
+    }
+    .banner-form-container{
+        width: 100%;
+        padding: 0;
+    }
+    .form-title{
+        padding-top: 30px;
+    }
+    .land-footer-left{
+        width: 100%;
+    }
+    .land-footer-right{
+        width: 100%;
+    }
+    .left-mail{
+        padding: 5px 0;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .banner-container{
+        padding: 40px 20px;
+    }
+    .banner-left{
+        width: 50%;
+    }
+    .banner-right{
+        width: 50%;
+    }
+    .banner-form-container{
+        width: 90%;
+        padding: 20px;
+    }
+    .banner-logo-text h1{
+        font-size: 45px;
+    }
+    .banner-top-title h2{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .banner-container{
+        padding: 60px 30px;
+    }
+    .banner-left{
+        width: 40%;
+    }
+    .banner-right{
+        width: 60%;
+    }
+    .banner-logo-text h1{
+        font-size: 40px;
+    }
+    .banner-form-container{
+        width: 65%;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .banner-logo-text h1{
+        font-size: 50px;
+    }
+    .banner-form-container{
+        width: 40%;
+    }
+}
